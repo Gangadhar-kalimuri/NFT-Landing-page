@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:wght@300;400&family=Rubik&display=swap');
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+.navbar{
+    display: flex;
+    float: left;
+    background-color: black;
+    padding: 20px 360px;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;}
+
+.navbar li{
+    display: flex;
+    float: left;
+    color: antiquewhite;
+    margin-left: 0px;
+    padding-left: 65px;
+    font-size: 18px;
+    background-color: black;
+}
+nav img{
+    background-color: black;
+}
+.hero-heading{
+    position: absolute;
+    left: 26%;
+    top: 29%;
+    font-size: 400%;
+    width: 55%;
+    color: antiquewhite;
+    text-align: left;
+}
+.hero-description{
+    position: absolute;
+    left: 26%;
+    top: 56%;
+    font-size: 180%;
+    width: 48%;
+    color: antiquewhite;
+}
+.button-large{
+    position: absolute;
+    display: flex;
+    left: 40%;
+    top: 74%;
+    height: 9%;
+    width: 21%;
+    padding: 13px;
+    background-color: #FF10F0;
+    border-radius: #FF10F0;
+    color: antiquewhite;
+    border-radius: 10px;
+    border-color: #FF10F0;
+    font-size: 150%;
+    text-align: right;
+    text-decoration: solid;
+}
+.button-small{
+    position: absolute;
+    top: 13px;
+    left: 86%;
+    height: 6%;
+    width: 10%;
+    border-radius: 10px;
+    background-color: #FF10F0;
+    border-radius: #FF10F0;
+    color: antiquewhite;
+    border-color: #FF10F0;
+    padding: 10px;
+}
+.navbar img{
+width: 7%;
+top: 23px;
+position: absolute;
+left: 84px;
+border-right: 100px;
+}
+body{
+    background: url(./assets/bg.png);
+}
+.navbar  img{
+    border-right: 2px solid #CAD5E2;
+    padding-right: 165px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 5px;
+  }
+li:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+.arrow {
+    border: solid #ffffff;
+    border-width: 0 4px 4px 0;
+    display: flex;
+    position: absolute;
+    left: 484px;
+    top: 25px;
+    padding: 4px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
